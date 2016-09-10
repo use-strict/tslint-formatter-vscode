@@ -1,0 +1,30 @@
+{
+  "name": "tslint-formatter-vscode",
+  "version": "1.0.0",
+  "description": "TSLint formatter for Visual Studio Code",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc -p ./src",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/use-strict/tslint-formatter-vscode.git"
+  },
+  "keywords": [
+    "tslint",
+    "formatter",
+    "vscode",
+    "visual",
+    "studio"
+  ],
+  "author": "Alexandru Ciuca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/use-strict/tslint-formatter-vscode/issues"
+  },
+  "homepage": "https://github.com/use-strict/tslint-formatter-vscode#readme",
+  "devDependencies": {
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.2"
+  }
+}
