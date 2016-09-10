@@ -8,6 +8,6 @@ A TSLint formatter for Visual Studio Code
 ## Format
 
 ```
-$file($line,$col): warning TSLINT: $message ($ruleName)
-$file($line,$col): error TSLINT: $message ($ruleName)
+$file ($line,$col): warning TSLINT: $message ($ruleName)
+$file ($line,$col): error TSLINT: $message ($ruleName)
 ```
