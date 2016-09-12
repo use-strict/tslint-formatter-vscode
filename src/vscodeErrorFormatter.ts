@@ -16,6 +16,6 @@ export class Formatter extends Lint.Formatters.AbstractFormatter {
         let positionTuple = (lineAndCharacter.line + 1) + ',' +
             (lineAndCharacter.character + 1);
 
-        return `${fileName} (${positionTuple}): error TSLINT:${message} (${ruleName})`;
+        return `${fileName} (${positionTuple}): error TSLINT: ${message} (${ruleName})`;
     }
 }
