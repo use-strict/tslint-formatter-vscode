@@ -1,6 +1,6 @@
 {
   "name": "tslint-formatter-vscode",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "TSLint formatter for Visual Studio Code",
   "scripts": {
     "build": "./node_modules/.bin/tsc -p ./src",
